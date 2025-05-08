@@ -29,8 +29,8 @@ export default function AccountForm() {
 
   return (
     <div className="bg-white p-6 rounded shadow w-full max-w-lg">
-      <h2 className="text-xl font-semibold mb-4">新增記錄</h2>
-      <div className="flex gap-2 mb-2">
+      <div className="flex flex-wrap gap-2 mb-2">
+        <div className="flex gap-2 mb-2">
         <select value={type} onChange={(e) => setType(e.target.value)} className="border p-2 rounded">
           <option value="收入">收入</option>
           <option value="支出">支出</option>
