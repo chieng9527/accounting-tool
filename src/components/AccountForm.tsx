@@ -40,18 +40,18 @@ export default function AccountForm() {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           placeholder="金額"
-          className="border p-2 rounded w-full sm:w-auto"
+          className="border p-2 rounded w-full sm:w-[120px]"
         />
         <input
           type="text"
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           placeholder="內容"
-          className="border p-2 rounded flex-1 w-full sm:w-auto"
+          className="border p-2 rounded w-full sm:flex-1"
         />
         <button
           onClick={handleAdd}
-          className="bg-green-500 text-white px-4 rounded hover:bg-green-600 w-full sm:w-auto"
+          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 w-full sm:w-auto"
         >
           新增
         </button>

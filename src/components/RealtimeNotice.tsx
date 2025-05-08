@@ -42,8 +42,8 @@ export default function RealtimeNotice() {
   };
 
   return (
-    <div className="bg-white   p-4 rounded shadow max-w-lg w-full my-5">
-      <p className="font-bold mb-2">📢 即時公告</p>
+    <div className="bg-white   p-6 rounded shadow max-w-lg w-full my-5">
+      <p className="text-xl font-semibold mb-4"> 即時公告</p>
 
       <div className="mb-4 space-y-1 max-h-60 overflow-y-auto">
         {notices.map((n, i) => (
